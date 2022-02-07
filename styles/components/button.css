@@ -1,0 +1,15 @@
+.button {
+  padding: 8px;
+  margin: 10px;
+  background-color: darkcyan;
+}
+
+.button:hover {
+  background-color: goldenrod;
+}
+
+/* block--modifier */
+.big--button {
+  font-size: 1.3em;
+  color: white;
+}

@@ -1,0 +1,96 @@
+/* @import "./colors.css";
+@import "./base.css";
+@import "./utility.css";
+
+@import "./components/button.css";
+@import "./components/header.css";
+@import "./components/navigation.css"; */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #eee;
+}
+
+body {
+  font-size: 112.5%;
+  line-height: 1.5;
+  font-family: "Fira Sans", sans-serif;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.8;
+  text-shadow: 2px 2px 2px #5c5e5e;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greeting {
+  color: goldenrod;
+  display: block;
+}
+
+.image {
+  border: 3px dotted steelblue;
+}
+
+p {
+  margin-left: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Navigation */
+
+.navigation {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  padding: 10px 10px 0;
+}
+
+.nav-button {
+  text-decoration: none;
+  color: goldenrod;
+  transition-duration: 0.4s;
+  padding: 8px;
+}
+
+.nav-button:hover {
+  background-color: darkcyan;
+}
+
+/* Button */
+
+.button {
+  padding: 8px;
+  margin: 10px;
+  background-color: darkcyan;
+}
+
+.button:hover {
+  background-color: goldenrod;
+}
+
+.big-button {
+  font-size: 1.3em;
+  color: white;
+}
