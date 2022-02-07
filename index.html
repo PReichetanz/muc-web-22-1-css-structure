@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- <style>
+      html {
+        background-color: blue;
+      }
+    </style> -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,17 +22,19 @@
         alt="Random Picture"
       />
       <nav class="navigation">
-        <a class="nav-button" href="#">Explanation</a>
-        <a class="nav-button" href="#">Examples</a>
-        <a class="nav-button" href="#">Further Reading</a>
+        <a class="navigation__button" href="#">Explanation</a>
+        <a class="navigation__button" href="#">Examples</a>
+        <a class="navigation__button navigation__button--red" href="#"
+          >Further Reading</a
+        >
       </nav>
       <button class="button">Click me for fun!</button>
-      <button class="button big-button">Click me for more fun!</button>
+      <button class="button button--big">Click me for more fun!</button>
     </header>
     <main>
       <section class="explanation">
-        <h2>Explanation</h2>
-        <p>
+        <h2 class="explanation__heading">Explanation</h2>
+        <p class="ml-16 explanation-to-be-read__text--blue">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
           blanditiis, nobis alias dolores itaque magni molestiae odit maxime ad
           exercitationem perspiciatis assumenda est doloremque fuga adipisci. Ut

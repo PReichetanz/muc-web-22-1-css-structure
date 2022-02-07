@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #eee;
+}
+
+body {
+  font-size: 112.5%;
+  line-height: 1.5;
+  font-family: "Fira Sans", sans-serif;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.8;
+  text-shadow: 2px 2px 2px #5c5e5e;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+ul {
+  list-style: none;
+}
