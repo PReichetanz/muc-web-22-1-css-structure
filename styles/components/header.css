@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greeting {
+  color: goldenrod;
+  display: block;
+}
+
+.image {
+  border: 3px dotted steelblue;
+}
