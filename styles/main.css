@@ -86,3 +86,7 @@ ul {
   font-size: 1.3em;
   color: white;
 }
+
+.hidden {
+  display: none;
+}
